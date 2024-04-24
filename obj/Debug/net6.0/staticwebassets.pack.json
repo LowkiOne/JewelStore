@@ -1,0 +1,149 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\ArmBands\\GoldPearlsArmBand.jpg",
+      "PackagePath": "staticwebassets\\images\\ArmBands\\GoldPearlsArmBand.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\ArmBands\\SilverArmband.jpg",
+      "PackagePath": "staticwebassets\\images\\ArmBands\\SilverArmband.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\ArmBands\\SteelArmband.jpg",
+      "PackagePath": "staticwebassets\\images\\ArmBands\\SteelArmband.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\ArmBands\\ThanosArmband.jpg",
+      "PackagePath": "staticwebassets\\images\\ArmBands\\ThanosArmband.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Necklesses\\ArrowGoldNeckless.jpg",
+      "PackagePath": "staticwebassets\\images\\Necklesses\\ArrowGoldNeckless.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Necklesses\\ArrowSilverNeckless.jpg",
+      "PackagePath": "staticwebassets\\images\\Necklesses\\ArrowSilverNeckless.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Necklesses\\ArrowSteelNeckless.jpg",
+      "PackagePath": "staticwebassets\\images\\Necklesses\\ArrowSteelNeckless.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Necklesses\\BlackPantherNeckless.jpg",
+      "PackagePath": "staticwebassets\\images\\Necklesses\\BlackPantherNeckless.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Necklesses\\BlueHeartNeckless.jpg",
+      "PackagePath": "staticwebassets\\images\\Necklesses\\BlueHeartNeckless.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Necklesses\\GryffindorNeckless.jpg",
+      "PackagePath": "staticwebassets\\images\\Necklesses\\GryffindorNeckless.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Necklesses\\RedHeartNeckless.jpg",
+      "PackagePath": "staticwebassets\\images\\Necklesses\\RedHeartNeckless.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Necklesses\\SlytherinNeckless.jpg",
+      "PackagePath": "staticwebassets\\images\\Necklesses\\SlytherinNeckless.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Necklesses\\StarkNeckless.jpg",
+      "PackagePath": "staticwebassets\\images\\Necklesses\\StarkNeckless.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Necklesses\\TheHandNeckless.jpg",
+      "PackagePath": "staticwebassets\\images\\Necklesses\\TheHandNeckless.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\HoursEyeRing.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\HoursEyeRing.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\KlackRingBlackPearl.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\KlackRingBlackPearl.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\KlackRingBlue.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\KlackRingBlue.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\KlackRingGold.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\KlackRingGold.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\KlackRingRedPearl.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\KlackRingRedPearl.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\NarutoRingB.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\NarutoRingB.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\NarutoRingG.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\NarutoRingG.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\NarutoRingLightRed.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\NarutoRingLightRed.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\NarutoRingO.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\NarutoRingO.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\NarutoRingP.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\NarutoRingP.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\NarutoRingRed.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\NarutoRingRed.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\NarutoRingT.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\NarutoRingT.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\NarutoRingY.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\NarutoRingY.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\ThanosRing.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\ThanosRing.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\TreeOfLifeRing.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\TreeOfLifeRing.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\images\\Rings\\ValknutSilverRing.jpg",
+      "PackagePath": "staticwebassets\\images\\Rings\\ValknutSilverRing.jpg"
+    },
+    {
+      "Id": "D:\\2024\\Skola\\Backend\\FirstAssigment\\JewelleryRazorPages\\WebShopJewelStore\\WebShopJewel\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebShopJewel.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebShopJewel.props",
+      "PackagePath": "build\\WebShopJewel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebShopJewel.props",
+      "PackagePath": "buildMultiTargeting\\WebShopJewel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebShopJewel.props",
+      "PackagePath": "buildTransitive\\WebShopJewel.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

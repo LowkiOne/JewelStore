@@ -1,0 +1,14 @@
+﻿@page
+@model WebShopJewel.Pages.ShoppingCartPage.OrderConfirmationPageModel
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<h1>Order Confirmation</h1>
+
+<p>Your order has been confirmed! </p>
+<p>Total Price: @Html.DisplayFor(model => model.TotalCartPrice)</p>
+
+<form method="post" asp-page="/SearchProduct/Index">
+    <button type="submit">Return</button>
+</form>

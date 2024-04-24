@@ -1,0 +1,50 @@
+﻿@page
+@model WebShopJewel.Pages.SearchProduct.IndexModel
+@{
+    ViewData["Title"] = "Product Index";
+}
+
+<form method="post">
+    <select name="categoryId" onchange="this.form.submit()">
+        <option value="">Show All</option>
+        @foreach(var category in Model.Categories)
+        {
+            <option value="@category.Id">@category.Name</option>
+        }
+    </select>
+    <input type="text" name="searchString" placeholder="Search Products" />
+        <button type="submit">Search</button>
+</form>
+
+@if (Model.Products != null)
+{
+    <table class="productdisplay">
+
+        <tbody>
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>
+                        <a asp-page="/SearchProduct/ProductDetails" asp-route-id="@product.Id"><img src="@Url.Content(product.Image)" alt="@product.Name" /></a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelProduct => product.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelProduct => product.Category.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelProduct => product.Price)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <form method="post">
+        <button type="submit" name="pageIndex" value="@((Model.Products.PageIndex > 1) ? Model.Products.PageIndex - 1 : 1)">Previous</button>
+        <button type="submit" name="pageIndex" value="@((Model.Products.PageIndex < Model.Products.TotalPages) ? Model.Products.PageIndex + 1 : Model.Products.TotalPages)">Next</button>
+        <input type="hidden" name="categoryId" value="@Model.CategoryId" />
+        <input type="hidden" name="searchString" value="@Model.SearchString" />
+    </form>
+}

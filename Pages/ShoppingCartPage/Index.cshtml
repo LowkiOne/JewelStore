@@ -1,0 +1,61 @@
+﻿@page
+@model WebShopJewel.Pages.ShoppingCartPage.IndexModel
+@{
+    ViewData["Title"] = "ShoppingCart Index";
+}
+
+@if(Model.ShoppingCart.Count > 0)
+{
+<table class="cart">
+    <thead>
+        <tr>
+            <th></th>
+            <th>
+                Product Name
+            </th>
+            <th>
+                Price Each
+            </th>
+            <th>
+                Amount
+            </th>
+            <th>
+                Total Price
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cartProduct in Model.ShoppingCart)
+        {
+            <tr>
+                <td>
+                    <a asp-page="/SearchProduct/ProductDetails" asp-route-id="@cartProduct.Product.Id"><img src="@Url.Content(cartProduct.Product.Image)" alt="@cartProduct.Product.Name" /></a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelProduct => cartProduct.Product.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelProduct => cartProduct.Product.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelProduct => cartProduct.AmountProduct)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelProduct => cartProduct.TotalPrice)
+                </td>
+            </tr>
+        }
+    </tbody>
+    </table>
+    if(Model.TotalCartPrice != null || Model.TotalCartPrice != 0)
+    {
+        <div>
+            <p>
+                Total Price: @Html.DisplayFor(model => model.TotalCartPrice)
+            </p>
+            <form method="post" asp-page="/ShoppingCartPage/OrderConfirmationPage">
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    }
+}

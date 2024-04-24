@@ -1,0 +1,26 @@
+﻿@page
+@model WebShopJewel.Pages.SearchProduct.ProductDetailsModel
+@{
+    ViewData["Title"] = "Product Details";
+}
+    <div class="row">
+        <div>
+            <img src="@Url.Content(Model.Product.Image)" alt="Product Image">
+        </div>
+        <p>
+            @Html.DisplayFor(model => model.Product.Name) @Html.DisplayFor(model => model.Product.Category.Name)
+        </p>
+        <div>
+            <p>@Html.DisplayNameFor(model => model.Product.Description)</p>
+            <p> @Html.DisplayFor(model => model.Product.Description)</p>
+        </div>
+        <p>
+            @Html.DisplayNameFor(model => model.Product.Price):
+            @Html.DisplayFor(model => model.Product.Price)
+
+        </p>
+    </div>
+    <form method="post" asp-page="/ShoppingCartPage/Index" asp-route-id="@Model.Product.Id">
+        <button type="submit">Purchase</button>
+        <input type="hidden" name="id" value="@Model.Product.Id" />
+    </form>
